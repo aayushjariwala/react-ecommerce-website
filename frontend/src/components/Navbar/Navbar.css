@@ -1,0 +1,129 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 2px 3px -1px black;
+   
+}
+
+.navlogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navlogo p{
+    font-size: 33px;
+    font-weight: 500px;
+    color: rgb(31, 29, 29);
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.navlogo img.logo-image {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    
+}
+
+
+
+.button-51{
+
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+
+
+
+.nav-cart-count {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 11px;
+    background: red;
+    color: white;
+    position: absolute;
+    top: 55px; /* Adjust the position as needed */
+    right: 120px; /* Adjust the position as needed */
+}
+
+
+.nav-menu hr{
+    background-color: red;
+    border: none;
+    width: 80%;
+    height: 3px;
+   
+    border-radius: 10px;
+}
