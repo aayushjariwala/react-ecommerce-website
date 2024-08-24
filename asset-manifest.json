@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d3acb80.css",
-    "main.js": "/static/js/main.a486d504.js",
-    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
-    "static/media/tree.jpeg": "/static/media/tree.54dac91f778d966d9a2a.jpeg",
-    "static/media/logo.png": "/static/media/logo.06ab2cab45d4875f0bed.png",
-    "static/media/instagram.png": "/static/media/instagram.79535458a8a6d88f81d4.png",
-    "static/media/candle.jpeg": "/static/media/candle.cd2ccb18c1e74ff05deb.jpeg",
-    "static/media/black.jpeg": "/static/media/black.c00c2a0a7aa652168d08.jpeg",
-    "static/media/gift.png": "/static/media/gift.fa9dcc89c7af7dffccf3.png",
-    "static/media/down-arrow.png": "/static/media/down-arrow.89d9d115ae710cfcb61c.png",
-    "static/media/spider.jpeg": "/static/media/spider.2634481487afe8e90061.jpeg",
-    "static/media/HEADER_BANNER.jpeg": "/static/media/HEADER_BANNER.882d61019c1fbcb1625b.jpeg",
-    "static/media/candlegift.png": "/static/media/candlegift.bc294cb080bd913c1019.png",
-    "static/media/whatsapp.png": "/static/media/whatsapp.c826b0165560636baf0b.png",
-    "static/media/tinder.png": "/static/media/tinder.2afcad9d4a37445865c3.png",
-    "static/media/remove.png": "/static/media/remove.3c662b752278fc52f408.png",
-    "static/media/starl.png": "/static/media/starl.19ecda2f97b8e9dc5aa8.png",
-    "static/media/star.png": "/static/media/star.e76838ca79bccfe14b98.png",
-    "index.html": "/index.html",
-    "main.5d3acb80.css.map": "/static/css/main.5d3acb80.css.map",
-    "main.a486d504.js.map": "/static/js/main.a486d504.js.map",
-    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/react-ecommerce-website/static/css/main.5d3acb80.css",
+    "main.js": "/react-ecommerce-website/static/js/main.70fe7f73.js",
+    "static/js/453.8ab44547.chunk.js": "/react-ecommerce-website/static/js/453.8ab44547.chunk.js",
+    "static/media/tree.jpeg": "/react-ecommerce-website/static/media/tree.54dac91f778d966d9a2a.jpeg",
+    "static/media/logo.png": "/react-ecommerce-website/static/media/logo.06ab2cab45d4875f0bed.png",
+    "static/media/instagram.png": "/react-ecommerce-website/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/candle.jpeg": "/react-ecommerce-website/static/media/candle.cd2ccb18c1e74ff05deb.jpeg",
+    "static/media/black.jpeg": "/react-ecommerce-website/static/media/black.c00c2a0a7aa652168d08.jpeg",
+    "static/media/gift.png": "/react-ecommerce-website/static/media/gift.fa9dcc89c7af7dffccf3.png",
+    "static/media/down-arrow.png": "/react-ecommerce-website/static/media/down-arrow.89d9d115ae710cfcb61c.png",
+    "static/media/spider.jpeg": "/react-ecommerce-website/static/media/spider.2634481487afe8e90061.jpeg",
+    "static/media/HEADER_BANNER.jpeg": "/react-ecommerce-website/static/media/HEADER_BANNER.882d61019c1fbcb1625b.jpeg",
+    "static/media/candlegift.png": "/react-ecommerce-website/static/media/candlegift.bc294cb080bd913c1019.png",
+    "static/media/whatsapp.png": "/react-ecommerce-website/static/media/whatsapp.c826b0165560636baf0b.png",
+    "static/media/tinder.png": "/react-ecommerce-website/static/media/tinder.2afcad9d4a37445865c3.png",
+    "static/media/remove.png": "/react-ecommerce-website/static/media/remove.3c662b752278fc52f408.png",
+    "static/media/starl.png": "/react-ecommerce-website/static/media/starl.19ecda2f97b8e9dc5aa8.png",
+    "static/media/star.png": "/react-ecommerce-website/static/media/star.e76838ca79bccfe14b98.png",
+    "index.html": "/react-ecommerce-website/index.html",
+    "main.5d3acb80.css.map": "/react-ecommerce-website/static/css/main.5d3acb80.css.map",
+    "main.70fe7f73.js.map": "/react-ecommerce-website/static/js/main.70fe7f73.js.map",
+    "453.8ab44547.chunk.js.map": "/react-ecommerce-website/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d3acb80.css",
-    "static/js/main.a486d504.js"
+    "static/js/main.70fe7f73.js"
   ]
 }
