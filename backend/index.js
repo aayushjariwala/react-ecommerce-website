@@ -15,8 +15,20 @@ app.use(cors());
 
 // Database connection with mongodb
 
-mongoose.connect("mongodb+srv://codewithaayush:Aayush1404@cluster0.vhbmmws.mongodb.net/e-commerce")
+// mongoose.connect("mongodb+srv://codewithaayush:Aayush1404@cluster0.vhbmmws.mongodb.net/e-commerce")
 
+
+
+mongoose.connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log('MongoDB connected'))
+  .catch(err => {
+    console.error('MongoDB connection error:', err);
+    process.exit(1);
+  });
+  
 // API creatiion
 
 app.listen(port, (err) => {
