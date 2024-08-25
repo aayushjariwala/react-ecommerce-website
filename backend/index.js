@@ -25,7 +25,7 @@ app.use(cors());
 
 app.listen(port, (err) => {
     if (!err) {
-        console.log("Connected to port 4000")
+        console.log(`Connected to port ${port}`)
     }
     else {
         console.log("error in conenction")
