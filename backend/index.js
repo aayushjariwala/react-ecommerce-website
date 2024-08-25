@@ -15,8 +15,12 @@ app.use(cors());
 
 // Database connection with mongodb
 
- mongoose.connect("mongodb+srv://codewithaayush:Aayush1404@cluster0.vhbmmws.mongodb.net/e-commerce")
-
+mongoose.connect("mongodb+srv://codewithaayush:Aayush1404@cluster0.vhbmmws.mongodb.net/e-commerce", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
+.then(() => console.log("Connected to MongoDB"))
+.catch(err => console.error("Failed to connect to MongoDB:", err));
 
 
 
@@ -62,7 +66,7 @@ app.use('/images', express.static('upload/images'))
 app.post('/upload', upload.single('product'), (req, res) => {
     res.json({
         success: 1,
-        image_url: `http://localhost:${port}/images/${req.file.filename}`
+        image_url: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
     })
 })
 
