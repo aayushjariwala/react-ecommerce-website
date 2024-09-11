@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-ecommerce-website/static/css/main.dbeff174.css",
+    "main.js": "/react-ecommerce-website/static/js/main.e1619655.js",
+    "static/js/453.8ab44547.chunk.js": "/react-ecommerce-website/static/js/453.8ab44547.chunk.js",
+    "static/media/tree.jpeg": "/react-ecommerce-website/static/media/tree.54dac91f778d966d9a2a.jpeg",
+    "static/media/cartgold.png": "/react-ecommerce-website/static/media/cartgold.5244c680341bbbc3988e.png",
+    "static/media/logo.png": "/react-ecommerce-website/static/media/logo.06ab2cab45d4875f0bed.png",
+    "static/media/instagram.png": "/react-ecommerce-website/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/candle.jpeg": "/react-ecommerce-website/static/media/candle.cd2ccb18c1e74ff05deb.jpeg",
+    "static/media/black.jpeg": "/react-ecommerce-website/static/media/black.c00c2a0a7aa652168d08.jpeg",
+    "static/media/gift.png": "/react-ecommerce-website/static/media/gift.fa9dcc89c7af7dffccf3.png",
+    "static/media/down-arrow.png": "/react-ecommerce-website/static/media/down-arrow.89d9d115ae710cfcb61c.png",
+    "static/media/offers50.jpg": "/react-ecommerce-website/static/media/offers50.ed2c5133bdb792ddf9a1.jpg",
+    "static/media/spider.jpeg": "/react-ecommerce-website/static/media/spider.2634481487afe8e90061.jpeg",
+    "static/media/HEADER_BANNER.jpeg": "/react-ecommerce-website/static/media/HEADER_BANNER.882d61019c1fbcb1625b.jpeg",
+    "static/media/candlegift.png": "/react-ecommerce-website/static/media/candlegift.bc294cb080bd913c1019.png",
+    "static/media/horrorcandle.jpg": "/react-ecommerce-website/static/media/horrorcandle.6b3864b83995b17d6bc6.jpg",
+    "static/media/whatsapp.png": "/react-ecommerce-website/static/media/whatsapp.c826b0165560636baf0b.png",
+    "static/media/tinder.png": "/react-ecommerce-website/static/media/tinder.2afcad9d4a37445865c3.png",
+    "static/media/remove.png": "/react-ecommerce-website/static/media/remove.3c662b752278fc52f408.png",
+    "static/media/starl.png": "/react-ecommerce-website/static/media/starl.19ecda2f97b8e9dc5aa8.png",
+    "static/media/star.png": "/react-ecommerce-website/static/media/star.e76838ca79bccfe14b98.png",
+    "index.html": "/react-ecommerce-website/index.html",
+    "main.dbeff174.css.map": "/react-ecommerce-website/static/css/main.dbeff174.css.map",
+    "main.e1619655.js.map": "/react-ecommerce-website/static/js/main.e1619655.js.map",
+    "453.8ab44547.chunk.js.map": "/react-ecommerce-website/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbeff174.css",
+    "static/js/main.e1619655.js"
+  ]
+}
