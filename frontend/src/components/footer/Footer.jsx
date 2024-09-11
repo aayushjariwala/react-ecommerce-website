@@ -4,16 +4,18 @@ import gift from '../assets/gift.png';
 import instagram from '../assets/instagram.png'
 import whatsapp from '../assets/whatsapp.png'
 import tinder from '../assets/tinder.png'
-
+import logo from '../assets/logo.png';
 
 
 
 const Footer = ()=>{
     return(
+        
         <div className="footer">
+             <hr/>
             <div className="footer-logo">
-                <img  src={gift} alt=""/>
-                <p>Shopper</p>
+                <img  src={logo} alt=""/>
+                <p>Canzee</p>
 
             </div>
             <ul className="footer-links">

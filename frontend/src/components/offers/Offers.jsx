@@ -1,7 +1,7 @@
 import React from "react";
 import './Offers.css';
 import image from '../assets/gift.png'
-
+import offers50 from '../assets/offers50.jpg'
 
 const Offers = ()=>{
     return(
@@ -16,7 +16,7 @@ const Offers = ()=>{
             </div>
 
             <div className="offers-right">
-                <img src={image} alt="" />
+                <img src={offers50} alt="" />
             </div>
 
 

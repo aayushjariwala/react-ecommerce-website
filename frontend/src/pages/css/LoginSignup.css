@@ -18,6 +18,9 @@
 
 .loginsignup-container h1{
     margin: 20px 0px;
+    color: #D4AF37;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 6vh;
 }
 
 
@@ -40,20 +43,34 @@
 
 }
 
-
-.loginsignup-button{
+.loginsignup-button {
     width: 600px;
     height: 50px;
     color: white;
-    background: #ff4141;
+    background: linear-gradient(90deg, #ff7e7e, #ff4141); /* Gradient for a modern look */
     margin-top: 30px;
     border: none;
     cursor: pointer;
     font-size: 24px;
     font-weight: 600;
-    
-   
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for interactive effects */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
 }
+
+/* Add hover effect to make the button more interactive */
+.loginsignup-button:hover {
+    background: linear-gradient(90deg, #ff4141, #ff7e7e); /* Reverse gradient on hover */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+/* Optional: Add a subtle active state when the button is clicked */
+.loginsignup-button:active {
+    transform: translateY(1px); /* Press down effect */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Reduce shadow */
+}
+
 
 .loginsignup-login{
     margin-top: 20px;

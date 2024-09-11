@@ -1,88 +1,135 @@
-.offers{
-    width: 60%;
-    height: 60vh;
-    display: flex;
-    margin: auto;
-    padding: 0px 140px;
-    margin-bottom: 150px;
-   
-    justify-content: center;
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+/* Main Offers Section */
+.offers {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  margin: auto;
+  padding: 40px 140px; /* Increased padding for better spacing */
+  margin-bottom: 150px;
+  justify-content: center;
+  background: linear-gradient(180deg, #ff5f6d 0%, #ffc371 60%); /* Engaging, warm gradient */
+  border-radius: 20px; /* Rounded corners for a modern look */
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: all 0.4s ease; /* Smooth transitions */
 }
 
-.offers-right img{
-   
-    height: 300px;
+/* Image Section Styling */
+.offers-right img {
+  width: 350px;
+  height: auto;
+  border-radius: 20px; /* Softer rounded edges */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  transition: transform 0.4s ease, box-shadow 0.4s ease; /* Smooth transition */
+  background: linear-gradient(145deg, rgba(255, 204, 0, 0.2), rgba(255, 102, 0, 0.2)); /* Subtle gradient overlay */
+  padding: 10px;
+  margin-left: 30px;
 }
 
-
-.offers-left{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.offers-right img:hover {
+  transform: scale(1.08); /* Slight zoom on hover */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
 }
 
-.offers-left h1{
-    color: rgb(145, 165, 33);
-    font-size: 70px;
-    font-weight: 500;
+/* Text Section */
+.offers-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20px; /* Ensure some space between text and image */
 }
 
-.offers-left p{
-    color: rgb(145, 165, 33);
-    font-size: 30px;
-    font-weight: 200;
+.offers-left h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2); /* Light shadow to make text stand out */
+  margin-bottom: 20px;
+  transition: color 0.3s ease; /* Smooth transition for color */
 }
 
+.offers-left p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  max-width: 450px;
+  line-height: 1.5;
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+/* Offer Button */
 .btn {
-  background-color: #a2417b;
-  border: 2px solid #422800;
-  border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  background: linear-gradient(90deg, #ff6961, #ff4141); /* Red gradient */
+  border: none;
+  border-radius: 50px;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
-  font-size: 18px;
-  padding: 0 18px;
-  line-height: 50px;
+  font-size: 20px;
+  padding: 0 40px;
+  height: 50px;
   text-align: center;
   text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 250px;
-  margin-top: 30px;
+  width: 260px;
+  transition: all 0.4s ease, background-size 0.4s ease;
+  box-shadow: 0px 8px 20px rgba(255, 65, 65, 0.3); /* Red shadow for consistency */
+  background-size: 200% 200%; /* Double the background size for gradient animation */
+  animation: gradientShift 5s ease infinite; /* Animated gradient */
 }
 
-.btn:hover {
-  background-color: #fff;
-}
-
-.btn:active {
-  box-shadow: #422800 2px 2px 0 0;
-  transform: translate(2px, 2px);
-}
-
-@media (min-width: 768px) {
-  .btn {
-    min-width: 120px;
-    padding: 0 25px;
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
-
-/* .offers-right{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-} */
-
-
-.offers-right{
-    margin-top: 50px;
+/* Hover Effect for Button */
+.btn:hover {
+  background: linear-gradient(90deg, #ff4141, #ff6961); /* Reverse gradient on hover */
+  transform: scale(1.08); /* Slight zoom effect */
+  box-shadow: 0px 10px 25px rgba(255, 65, 65, 0.5); /* Larger shadow on hover */
 }
 
+/* Button Active State (Click) */
+.btn:active {
+  transform: translateY(3px); /* Press-down effect */
+  box-shadow: 0px 4px 10px rgba(255, 65, 65, 0.2); /* Reduced shadow */
+  transition: all 0.2s ease; /* Faster transition when pressed */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .offers {
+    flex-direction: column; /* Stack the elements vertically */
+    padding: 20px;
+    height: auto; /* Auto height for better mobile adaptability */
+  }
+
+  .offers-left h1 {
+    font-size: 40px; /* Smaller font for mobile */
+  }
+
+  .offers-left p {
+    font-size: 18px; /* Smaller font for mobile */
+  }
+
+  .offers-right img {
+    width: 250px; /* Smaller image for mobile */
+    margin: 20px auto; /* Center image on mobile */
+  }
+
+  .btn {
+    width: 100%; /* Full-width button on mobile */
+    padding: 0 20px;
+  }
+}

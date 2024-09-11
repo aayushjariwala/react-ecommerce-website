@@ -7,8 +7,9 @@
 }
 
 .newcollection h1{
-    color: rgb(201, 30, 104);
+    color: rgb(212, 175, 55);
     font-size: 50px;
+    font-family: 'Great Vibes', cursive; /* Optional: choose a fancy font */
     font-weight: 700;
 
 }
@@ -16,7 +17,7 @@
 .newcollection hr{
     width: 200px;
     height: 4px;
-    background: rgb(0, 0, 0);
+    background: rgb(212, 175, 55);
     border-radius: 10px;
 }
 

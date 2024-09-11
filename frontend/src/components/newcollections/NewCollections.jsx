@@ -13,7 +13,7 @@ const NewCollections = () =>{
     },[])
     return (
         <div className="newcollection">
-            <h1>New collections</h1>
+            <h1>Must-Have Collection</h1>
             <hr/>
             <div className="collections">
                 {data_product2.map((item, i)=>{

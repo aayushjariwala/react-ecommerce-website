@@ -6,6 +6,12 @@
    
 }
 
+#logo-font{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.3rem; /* Adjust the size as needed */
+  color: #D4AF37; 
+}
+
 .navlogo{
     display: flex;
     align-items: center;
@@ -28,6 +34,18 @@
     font-weight: 500;
 }
 
+
+.nav-menu li a {
+  color: #D4AF37; /* Gold color */
+  font-family: 'Great Vibes', cursive; /* Optional: choose a fancy font */
+  font-size: 2rem; /* Adjust the size as needed */
+}
+
+
+
+
+
+
 .nav-menu li{
     cursor: pointer;
     display: flex;
@@ -35,6 +53,8 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    
+
 }
 
 .login-cart{
@@ -54,10 +74,10 @@
 .button-51{
 
   background-color: transparent;
-  border: 1px solid #266DB6;
+  border: 1px solid #cdae4b;
   box-sizing: border-box;
-  color: #00132C;
-  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  color: #ffffff;
+  font-family: 'Great Vibes', cursive; 
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -80,7 +100,7 @@
 }
 
 .button-51:before {
-  background-color: #D5EDF6;
+  background-color:#cdae4b;
   content: "";
   height: calc(100% + 3px);
   position: absolute;
@@ -92,7 +112,7 @@
 }
 
 .button-51:hover:before {
-  background-color: #6DCFF6;
+  background-color: #decf9c;
 }
 
 @media (min-width: 768px) {
@@ -120,7 +140,8 @@
 
 
 .nav-menu hr{
-    background-color: red;
+    background-color:#D4AF37;
+    
     border: none;
     width: 80%;
     height: 3px;

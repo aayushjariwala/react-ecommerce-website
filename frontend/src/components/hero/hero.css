@@ -2,7 +2,7 @@
     display: flex;
     height: 80vh;
     padding: 20px;
-    background: linear-gradient(180deg, rgb(173, 197, 216), rgb(252, 252, 255) 60%);
+    background: linear-gradient(180deg,rgb(224, 36, 77), rgb(255, 255, 252) 60%);
 }
 
 
@@ -48,36 +48,54 @@
 }
 
 
-
-.hero-latest-button{
+.hero-latest-button {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: red;
+    background: linear-gradient(90deg, #ff6961, #ff4141); /* Red gradient like the cart button */
     color: white;
-    border-radius: 75px;
+    border-radius: 50px; /* Softer rounded edges */
     margin-top: 30px;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 600; /* Bold font */
     width: 50%;
-    height: 40px;
-    
+    height: 50px; /* Height adjusted for visibility */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
 }
 
+.hero-latest-button:hover {
+    background: linear-gradient(90deg, #ff4141, #ff6961); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
 
 .hero-latest-button img {
-    width: 20px; /* Adjust the width as needed */
+    width: 25px; /* Slightly larger icon for better visibility */
     height: auto;
     margin-left: 10px;
 }
 
+.hero-latest-button:active {
+    transform: scale(0.95); /* Slight shrink effect on click */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15); /* Reduce shadow on click */
+}
 .hero-right img {
-    width: 350px; /* Adjust the width as needed */
+    width: 350px; /* Keep the width as per your design */
     height: auto;
-    /* margin-left: 200px; */
+    border-radius: 10px; /* Add a slight border radius to soften edges */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Add a soft shadow for depth */
+    filter: brightness(0.9) contrast(1.1) saturate(1.2); /* Enhance colors for a more vibrant and eerie look */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition on hover */
+
     
-    
+}
+
+.hero-right img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    filter: brightness(1.1) contrast(1.2) saturate(1.4); /* Enhance lighting on hover */
 }
 
 

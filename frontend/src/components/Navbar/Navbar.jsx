@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 import carticon from '../assets/carticon.png';
 import {Link} from 'react-router-dom';
 import { ShopContext } from "../../context/ShopContext";
-
+import cartgold from '../assets/cartgold.png';
 
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navlogo">
                  <Link style={{textDecoration: 'none'}} to="/"><img src={logo} alt="logo" className="logo-image" /></Link>
-                <Link style={{textDecoration: 'none'}} to="/"> <p>Shopp</p></Link>
+                <Link style={{textDecoration: 'none'}} to="/"> <p id="logo-font">Canze</p></Link>
             </div>
             <ul className="nav-menu">
                 <li onClick = {()=>{setMenu("shop")}}><Link style={{textDecoration: 'none'}} to="/">Shop</Link>{menu==="shop"?<hr/>:<></>}</li>

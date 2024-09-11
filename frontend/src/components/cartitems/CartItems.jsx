@@ -68,6 +68,7 @@ const CartItems = () => {
                     </div>
                     <button onClick={handleCheckout}>Proceed to checkout</button>
                 </div>
+                
                 <div className='cartitems-romocode'>
                     <p>If you have a promo code enter it here</p>
                     <div className='cartitems-promobox'>
